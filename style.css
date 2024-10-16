@@ -1,5 +1,5 @@
+/*Global Colors And Font*/
 :root{
-    /*Project Colors*/
     --red: #E3170A;
     --dark: #011827;
     --gray: #B6BDB5;
@@ -7,11 +7,15 @@
     --lightblue: #8ACFE5;
     --whiteText: #ffffff;
     --darkText: #000000;
+    --roboto: "Roboto", sans-serif;
 }
 body{
     padding: 0;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
+/*CSS For Header */
 .header{
     background-color: var(--dark);
     display: flex;
@@ -27,7 +31,7 @@ body{
     margin-left: 13px;
 }
 .header h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto);
     font-weight: 700;
     font-size: 24px;
 }
@@ -35,34 +39,36 @@ body{
     width: 128px;
     height: 82px;
     margin-left: 27px;
+/*CSS For Section Class Introduction */
 }
-.content__img{
-     width: 480px;
-     height: 274px;
+.introduction__img{
+     width: 100%;    
 }
-.content__navigation{
+.introduction__navigation{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.content__navigation button{
+.introduction__navigation button{
     height: 66px;
     width: 308px;
     background-color: var(--lightblue);
+    color: var(--darkText);
     border: none;
     border-radius: 5px;
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--roboto);
     font-weight: 700;
     margin-top: 37px;
 }
-.content__navigation a{
-    font-family: 'Roboto', sans-serif;
+.introduction__navigation a{
+    font-family: var(--roboto);
     font-weight: 700;
     font-size: 16px;
     color: var(--darkblue);
     margin-top: 30px;
 }
+/*CSS For Article Reviews */
 .reviews{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -77,18 +83,38 @@ body{
     margin-right: 22.41px;
 }
 .reviews__text {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     font-weight: 400;
     font-style: italic;
+    color: var(--darkText);
     font-size: 24px;
     margin: 0;
+    padding-right: 10px;
 }
 .reviews__date {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--roboto);
     font-weight: 400;
     font-size: 18px;
+    color: var(--darkText);
     grid-column: 2;
     margin: 10px 0px 0px 0px;   
+}
+/*CSS For Article Challenges */
+.content__heading{
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--darkText);
+    text-align: center;
+    margin-top: 105px;
+}
+.content__room{
+    display: flex;
+    justify-content: center;
+}
+.content__room__img{
+    width: 363px;
+    height: 219px;
 }
 
 
