@@ -1,0 +1,66 @@
+:root{
+    /*Project Colors*/
+    --red: #E3170A;
+    --dark: #011827;
+    --gray: #B6BDB5;
+    --darkblue: #36769D;
+    --lightblue: #8ACFE5;
+    --whiteText: #ffffff;
+    --darkText: #000000;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: var(--dark);
+    display: flex;
+    height: 144px;
+    align-items: center;
+    color: var(--whiteText);
+}
+.header__logoText{
+    width: 78px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+}
+.header h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.header__icon {
+    width: 128px;
+    height: 82px;
+    margin-left: 27px;
+}
+.content__img{
+     width: 480px;
+     height: 274px;
+}
+.content__navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__navigation button{
+    height: 66px;
+    width: 308px;
+    background-color: var(--lightblue);
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 37px;
+}
+.content__navigation a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--darkblue);
+    margin-top: 30px;
+}
+
