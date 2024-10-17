@@ -149,7 +149,7 @@ body{
     padding: 15px;
     margin: 0px;
 }
-.primaryButton{
+.content__room__button{
     background-color: var(--red);
     width: 180px;
     height: 44px;
@@ -164,4 +164,57 @@ body{
     display: flex;
     justify-content: flex-end;
     margin: 0px 18px 0px 0px;
+}
+.content__navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content__navigation__button{
+margin: 47px 0px 30px 0px;
+width: 308px;
+height: 66px;
+background-color: var(--lightblue);
+color: var(--darkText);
+font-family: var(--roboto);
+font-weight: 700;
+font-size: 24px;
+border: none;
+border-radius: 5px;
+}
+.content__navigation__link {
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--darkblue);
+    margin: 0px 0px 56px 0px;
+}
+/*CSS For Article Class Story */
+.story{
+    background-color: var(--dark);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story__text{
+    font-family: var(--roboto);
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: var(--whiteText);
+}
+.story__navigation{
+    margin: 30px 0px 0px 0px;
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--lightblue);
+    width: 308px;
+    height: 66px;
+    background-color: var(--dark);
+    border: 2px solid var(--lightblue);
+    border-radius: 5px;
+
 }
