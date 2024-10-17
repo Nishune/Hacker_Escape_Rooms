@@ -140,6 +140,7 @@ body{
     font-weight: 400;
     font-size: 14px;
     margin: 0px 0px 0px 5px;
+    align-items: center;
 
 }
 .content__room__info {
@@ -216,5 +217,4 @@ border-radius: 5px;
     background-color: var(--dark);
     border: 2px solid var(--lightblue);
     border-radius: 5px;
-
 }
